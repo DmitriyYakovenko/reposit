@@ -1,0 +1,40 @@
+---------- Date: 2017-02-05 20:09:22 ~ IP : ::1 ----------
+REQUEST URI : /aaa/
+MOD DETAILS:
+   modFile   : C:\xampp\htdocs\aaa\vqmod/xml/a_vqmod_d_social_login.xml
+   id        : d_social_login
+   version   : 2.x
+   vqmver    : 2.4.1
+   author    : dreamvention.com
+VQModObject::parseMods - Could not resolve path for [admin/model/sale/customer.php] (SKIPPED)
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-05 20:15:33 ~ IP : ::1 ----------
+REQUEST URI : /aaa/
+MOD DETAILS:
+   modFile   : C:\xampp\htdocs\aaa\vqmod/xml/a_vqmod_d_social_login.xml
+   id        : d_social_login
+   version   : 2.x
+   vqmver    : 2.4.1
+   author    : dreamvention.com
+VQModObject::parseMods - Could not resolve path for [admin/model/sale/customer.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [admin/model/sale/customer.php] (SKIPPED)
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-05 20:18:31 ~ IP : ::1 ----------
+REQUEST URI : /aaa/admin/
+MOD DETAILS:
+   modFile   : C:\xampp\htdocs\aaa\vqmod/xml/a_vqmod_d_social_login.xml
+   id        : d_social_login
+   version   : 2.x
+   vqmver    : 2.4.1
+   author    : dreamvention.com
+VQModObject::parseMods - Could not resolve path for [admin/model/sale/customer.php] (SKIPPED)
+
+----------------------------------------------------------------------
+
+

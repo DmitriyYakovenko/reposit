@@ -1,0 +1,101 @@
+2017-02-05 13:12:45 - PHP Notice:  Error: Could not load model C:/xampp/htdocs/aaa/admin/model/sale/customer_group.php! in C:\xampp\htdocs\aaa\vqmod\vqcache\vq2-system_storage_modification_system_engine_loader.php on line 63
+2017-02-05 20:00:41 - PHP Notice:  Undefined index: token in C:\xampp\htdocs\aaa\vqmod\vqcache\vq2-admin_controller_common_header.php on line 5
+2017-02-05 20:02:56 - PHP Notice:  Undefined index: token in C:\xampp\htdocs\aaa\vqmod\vqcache\vq2-admin_controller_common_header.php on line 5
+2017-02-05 20:04:52 - PHP Notice:  Undefined index: token in C:\xampp\htdocs\aaa\vqmod\vqcache\vq2-admin_controller_common_header.php on line 5
+2017-02-05 20:10:02 - PHP Notice:  Undefined variable: text_phone in C:\xampp\htdocs\aaa\admin\view\template\module\d_social_login.tpl on line 274
+2017-02-05 20:25:33 - PHP Notice:  Undefined variable: text_phone in C:\xampp\htdocs\aaa\admin\view\template\module\d_social_login.tpl on line 274
+2017-02-05 20:29:40 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 C:\xampp\htdocs\aaa\system\library\Hybrid\Providers\Google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Google->initialize()
+#2 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Google', Array)
+#5 C:\xampp\htdocs\aaa\catalog\controller\module\d_social_login.php(104): Hybrid_Auth::authenticate('Google')
+#6 C:\xampp\htdocs\aaa\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): ControllerModuleDSocialLogin->login(Array)
+#7 C:\xampp\htdocs\aaa\system\engine\front.php(34): Action->execute(Object(Registry))
+#8 C:\xampp\htdocs\aaa\system\engine\front.php(29): Front->execute(Object(Action))
+#9 C:\xampp\htdocs\aaa\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#10 {main}
+2017-02-05 20:29:46 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Facebook.
+
+Trace:
+ #0 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Facebook->initialize()
+#1 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Facebook', Array, Array)
+#2 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Facebook', Array)
+#3 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Facebook', Array)
+#4 C:\xampp\htdocs\aaa\catalog\controller\module\d_social_login.php(104): Hybrid_Auth::authenticate('Facebook')
+#5 C:\xampp\htdocs\aaa\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): ControllerModuleDSocialLogin->login(Array)
+#6 C:\xampp\htdocs\aaa\system\engine\front.php(34): Action->execute(Object(Registry))
+#7 C:\xampp\htdocs\aaa\system\engine\front.php(29): Front->execute(Object(Action))
+#8 C:\xampp\htdocs\aaa\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#9 {main}
+2017-02-05 20:29:49 - Missing provider application credentials.
+
+HybridAuth Error: Your application key and secret are required in order to connect to LinkedIn.
+
+Trace:
+ #0 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_LinkedIn->initialize()
+#1 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('LinkedIn', Array, Array)
+#2 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('LinkedIn', Array)
+#3 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('LinkedIn', Array)
+#4 C:\xampp\htdocs\aaa\catalog\controller\module\d_social_login.php(104): Hybrid_Auth::authenticate('LinkedIn')
+#5 C:\xampp\htdocs\aaa\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): ControllerModuleDSocialLogin->login(Array)
+#6 C:\xampp\htdocs\aaa\system\engine\front.php(34): Action->execute(Object(Registry))
+#7 C:\xampp\htdocs\aaa\system\engine\front.php(29): Front->execute(Object(Action))
+#8 C:\xampp\htdocs\aaa\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#9 {main}
+2017-02-05 20:29:53 - Missing provider application credentials.
+
+HybridAuth Error: Your application key and secret are required in order to connect to Yahoo.
+
+Trace:
+ #0 C:\xampp\htdocs\aaa\system\library\Hybrid\Providers\Yahoo.php(27): Hybrid_Provider_Model_OAuth1->initialize()
+#1 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Yahoo->initialize()
+#2 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Yahoo', Array, Array)
+#3 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Yahoo', Array)
+#4 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Yahoo', Array)
+#5 C:\xampp\htdocs\aaa\catalog\controller\module\d_social_login.php(104): Hybrid_Auth::authenticate('Yahoo')
+#6 C:\xampp\htdocs\aaa\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): ControllerModuleDSocialLogin->login(Array)
+#7 C:\xampp\htdocs\aaa\system\engine\front.php(34): Action->execute(Object(Registry))
+#8 C:\xampp\htdocs\aaa\system\engine\front.php(29): Front->execute(Object(Action))
+#9 C:\xampp\htdocs\aaa\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#10 {main}
+2017-02-05 20:35:05 - PHP Notice:  Undefined variable: text_phone in C:\xampp\htdocs\aaa\admin\view\template\module\d_social_login.tpl on line 274
+2017-02-05 20:35:56 - PHP Notice:  Undefined variable: text_phone in C:\xampp\htdocs\aaa\admin\view\template\module\d_social_login.tpl on line 274
+2017-02-05 20:41:43 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Facebook.
+
+Trace:
+ #0 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Facebook->initialize()
+#1 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Facebook', Array, Array)
+#2 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Facebook', Array)
+#3 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Facebook', Array)
+#4 C:\xampp\htdocs\aaa\catalog\controller\module\d_social_login.php(104): Hybrid_Auth::authenticate('Facebook')
+#5 C:\xampp\htdocs\aaa\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): ControllerModuleDSocialLogin->login(Array)
+#6 C:\xampp\htdocs\aaa\system\engine\front.php(34): Action->execute(Object(Registry))
+#7 C:\xampp\htdocs\aaa\system\engine\front.php(29): Front->execute(Object(Action))
+#8 C:\xampp\htdocs\aaa\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#9 {main}
+2017-02-06 11:04:39 - PHP Notice:  Undefined variable: text_phone in C:\xampp\htdocs\aaa\admin\view\template\module\d_social_login.tpl on line 274
+2017-02-06 13:37:29 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Facebook.
+
+Trace:
+ #0 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Model.php(90): Hybrid_Providers_Facebook->initialize()
+#1 C:\xampp\htdocs\aaa\system\library\Hybrid\Provider_Adapter.php(101): Hybrid_Provider_Model->__construct('Facebook', Array, Array)
+#2 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(277): Hybrid_Provider_Adapter->factory('Facebook', Array)
+#3 C:\xampp\htdocs\aaa\system\library\Hybrid\Auth.php(229): Hybrid_Auth::setup('Facebook', Array)
+#4 C:\xampp\htdocs\aaa\catalog\controller\module\d_social_login.php(103): Hybrid_Auth::authenticate('Facebook')
+#5 C:\xampp\htdocs\aaa\vqmod\vqcache\vq2-system_storage_modification_system_engine_action.php(46): ControllerModuleDSocialLogin->login(Array)
+#6 C:\xampp\htdocs\aaa\system\engine\front.php(34): Action->execute(Object(Registry))
+#7 C:\xampp\htdocs\aaa\system\engine\front.php(29): Front->execute(Object(Action))
+#8 C:\xampp\htdocs\aaa\index.php(275): Front->dispatch(Object(Action), Object(Action))
+#9 {main}
